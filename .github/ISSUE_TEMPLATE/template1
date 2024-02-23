@@ -1,0 +1,20 @@
+name: Issue Template
+description: Create an issue
+title: "[Component name] - [task summary]"
+projects: ["deven-org/3"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before creating an issue please [check if the issue already exists](https://github.com/thrbnhrtmnn/ideal-octo-pancake/issues).
+  - type: textarea
+    id: description
+    attributes:
+      label: Description / User story
+      description: Describe the issue here or formulate a user story.
+      value: |
+        As a [persona], 
+        I [want to], 
+        [so that].
+    validations:
+      required: true
